@@ -1,0 +1,120 @@
+@font-face {
+    font-family: vazir;
+    src: url(assets/Vazir.ttf);
+}
+@font-face {
+    font-family: nastaliq;
+    src: url(assets/IranNastaliq.ttf);
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #cedbe8;
+}
+/* قسمت ثابت */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0px -1px 13px rgb(223, 223, 223);
+}
+/* قسمت متحرک */
+::-webkit-scrollbar-thumb{
+    background: #fecb04;
+    border-radius: 10px;
+}
+body{
+    overflow-x: hidden;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: vazir;
+}
+.text-grey{
+    color: #a9a9a9;
+}
+.bg-grey{
+    background-color: #e5e5e5;
+}
+/* header & menu -------------------------------------------------------  */
+header{
+    background-color: #2e3743;
+}
+header input{
+    width: 100% ;
+    background-color: #2e3743;
+    outline: none;
+    caret-color: #ffffff;
+}
+.header-left{
+    width: 10%;
+}
+.header-right{
+    width: 90%;
+}
+.header-right a{
+    font-family: vazir;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.header-right .right-up a{
+    color: #fff;
+}
+nav{
+    height: 26px;
+}
+nav>ul>li>a{
+    display: inline-block;
+    line-height: 26px;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 14px;
+}
+nav>ul>li>a:hover{
+    color: #fecb04 !important;
+    background-color: #6f767e;
+}
+.zir-menu{
+    position: absolute;
+    background-color: #fff !important;
+    display: none;
+    transition: 0.5s;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.292);
+    z-index: 99;
+}
+
+.zir-menu li{
+    transition: 0.5s;
+}
+.zir-menu li:hover{
+    background-color: #fecb04;
+}
+.zir-menu li:hover a{
+    color: #fff;
+}
+header span.material-symbols-outlined{
+    color: #2e3743;
+    transition: 0.5s;
+}
+.zir-menu li:hover span.material-symbols-outlined{
+    color: #fff;
+}
+.zir-menu li a{
+    color: #2e3743;
+    display: inline-block;
+    width: 100%;
+}
+.main-menu:hover .zir-menu{
+    display: block;
+}
+.zir-zir-menu{
+    min-height: 100%;
+    white-space: nowrap;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    color: #fff;
+    background-color: #2e3743;
+    z-index: 100;
+}
+.zir-main-menu:hover .zir-zir-menu{
+    display: inline-block;
+}
