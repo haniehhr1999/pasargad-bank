@@ -274,3 +274,26 @@ main{
 .markaz-ertebat-right .show{
     background-color: #a9a9a9;
 }
+/* style for footer ****************************************************************************************************************** */
+footer{
+    background-color: #2e3743;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+footer a:hover{
+    color: #fecb04;
+}
+.footer-center{
+    border-top: 1px solid #6a6a6a;
+    border-bottom: 1px solid #6a6a6a;
+}
+.footer-center-list li.fw-bold{
+    font-size: larger;
+}
+.nastaliq{
+    font-family: nastaliq;
+    font-size: 30px;
+}
